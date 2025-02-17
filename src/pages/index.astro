@@ -31,6 +31,14 @@ const posts = (await getCollection('blog')).sort((a: BlogPost, b: BlogPost) => b
       <Image src={Ava} alt="Muhammad Syakirurohman" width={300} loading="eager" class="rounded-3xl rotate-3 mx-4 md:mx-0"/>
 		</div>
 		<main>
+     <div>
+        <div class="flex justify-between gap-2 mb-1">
+          <h2 class="text-lg font-bold mb-3">My Projects</h2>
+          <a href="/projects/" class="inline-block py-2 underline dark:prose-invert">All projects &raquo;</a>
+        </div>
+        <ProjectList projects={top6Projects}/>
+      </div>
+      <br><br><br><br>
       <div class='mt-6 mb-12'>
         <div class="flex justify-between gap-2 border-b mb-1 dark:border-b-zinc-700">
           <h2 class="text-lg font-bold mb-3">Chronology</h2>
@@ -46,13 +54,7 @@ const posts = (await getCollection('blog')).sort((a: BlogPost, b: BlogPost) => b
         <div class="text-right">
         </div>
       </div>
-      <div>
-        <div class="flex justify-between gap-2 mb-1">
-          <h2 class="text-lg font-bold mb-3">My Projects</h2>
-          <a href="/projects/" class="inline-block py-2 underline dark:prose-invert">All projects &raquo;</a>
-        </div>
-        <ProjectList projects={top6Projects}/>
-      </div>
+     
 		</main>
 	</div>
 </BaseLayout>
