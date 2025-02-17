@@ -1,0 +1,1 @@
+linkedin icon size, line up bottom, night mode linkedin icon
