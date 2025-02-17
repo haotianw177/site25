@@ -4,7 +4,7 @@ seoTitle: 'A Definitive Guide to Markdown Style'
 slug: 'markdown-style-guide'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: '2024-08-27'
-updatedDate: '2024-08-19'
+updatedDate: '2025-02-16'
 tags: ["Markdown", "Guide"]
 coverImage: './blog-placeholder-4.jpg'
 ---
