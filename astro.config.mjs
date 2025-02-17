@@ -8,7 +8,8 @@ import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://devolio.devaradise.com',
+  site: 'https://haotianw177.github.io/site25/',
+  base: '/site25/',
   integrations: [mdx(), sitemap(), tailwind(), partytown()],
   markdown: {
     extendDefaultPlugins: true,
