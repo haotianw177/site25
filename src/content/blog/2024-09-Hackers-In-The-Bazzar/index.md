@@ -9,11 +9,12 @@ tags: ["Markdown", "Guide"]
 coverImage: './blog-placeholder-4.jpg'
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+[Hackers in the Bazzar](https://www3.nd.edu/~pbui/teaching/cse.40842.fa24/) is a Computer Science and Engineering elective course at the University of Notre Dame that explores the idea of a "hacker" and the practice of participating in the open source "bazaar". 
+
+For this class, I developed a C++ Space Invader clone, a Go-based budget sharing app, contributed to open source projects. I also completed weekly readings and [reflections](https://haotianw177.github.io/blogs/) on hacker history and open source culture.
 
 ## Headings
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
 # H1
 
