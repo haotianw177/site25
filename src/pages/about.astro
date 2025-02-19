@@ -6,9 +6,18 @@ import Prose from '../components/Prose.astro';
 
 ---
 
+
+<style>
+  .no-underline a {
+    text-decoration: none !important;
+    color: #3366FF;
+  }
+</style>
+
+
 <BaseLayout
 	title="About Me"
-	description="Lorem ipsum dolor sit amet"
+	description="Haotian Wang"
 >
   <div class='container'>
 		<main class='prose text-lg dark:prose-invert'>
@@ -18,27 +27,17 @@ import Prose from '../components/Prose.astro';
             <h1 class="text-4xl font-bold mb-4">Hi There 👋, Syakir Here! </h1>
             <Prose>
               <div class="text-lg">
-                <p>I am a Front-end Engineer from Indonesia..</p>
-                <p>I made Devolio to help you easily set up your own blog and portfolio website. It's a static site built with Astro and Tailwind CSS, and you can deploy it on platforms like <a href="https://app.netlify.com/start/deploy?repository=https://github.com/devaradise/devolio" target="_blank" rel="nofollow noopener">Netlify</a>, <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdevaradise%2Fdevolio" target="_blank" rel="nofollow noopener">Vercel</a>, or <a href="https://pages.cloudflare.com/" target="_blank" rel="nofollow noopener">Cloudflare Pages</a>.</p>  
+              <p class="no-underline">
+                <br><br>
+                Hello! My name is Haotian Wang, and I am currently a Master’s student in the <a href="https://cse.nd.edu/">Computer Science and Engineering</a> department at the <a href="https://www.nd.edu/">University of Notre Dame</a>. I am originally from Anhui, China and have been living in the United States for 10 years.
+                I attended <a href="https://www.fryeburgacademy.org/">Fryburg Academy</a> High School and began my undergraduate studies at <a href="https://www.union.edu/">Union College</a>. Later, I transferred to <a href="https://www.newschool.edu/parsons/">Parsons School of Design</a>, where I majored in <a href="https://www.newschool.edu/parsons/bfa-communication-design/">Communication Design</a> with a focus on Graphic Design and Front-End Development. During my graduate studies at Notre Dame, I worked in the <a href="https://www.epochlab.org/">Epoch Research Lab</a> under <a href="https://engineering.nd.edu/faculty/karla-badillo-urquiola/">Karla Badillo-Urquiola</a>.
+                <br><br>
+              </p> 
               </div>
             </Prose>
           </div>
           <Image src={Ava} alt="Muhammad Syakirurohman" width={300}  class="rounded-3xl rotate-3 mx-4 md:mx-0"/>
         </div>     
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-            viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-            adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-            et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-            vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-            sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-          </p>
-
-      
-        </div>
-        </article>
       </article>
     </main>
   </div>
