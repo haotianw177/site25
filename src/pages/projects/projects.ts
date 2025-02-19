@@ -12,54 +12,60 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'Devaradise.com',
-    description: 'A blog that sharing web development resources and tutorials',
-    demoLink: 'https://devaradise.com',
-    tags: ['Blog']
+    name: 'Digital Garden: Put that there',
+    description: 'A letter drawing machine that take keyboard and mouse input',
+    demoLink: 'https://fontsdrawingmachine.netlify.app/',
+    tags: ['Web Design']
   },
   {
-    name: 'Sellercraft App',
-    description: 'An Ecommerce omnichannel platform in Southeast Asia',
-    demoLink: 'https://sellercraft.co',
+    name: 'Unity Garden',
+    description: 'A project exploring visualization of waveform through Tone.js library',
+    demoLink: '',
     demoLinkRel: 'nofollow noopener noreferrer',
-    tags: ['ECommerce', 'Saas']
+    tags: ['Software Development']
   },
   {
-    name: 'Gaji.id App',
-    description: 'Payroll and HR Management Information System',
-    demoLink: 'https://sellercraft.co',
+    name: 'Budget-Breeze',
+    description: 'A project exploring visualization of waveform through Tone.js library',
+    demoLink: '',
     demoLinkRel: 'nofollow noopener noreferrer',
-    tags: ['HRIS', 'Saas']
+    tags: ['Software Development']
   },
   {
-    ...(await getRepositoryDetails('devaradise/paradise-ui')),
-    name: 'Paradise UI',
-    demoLink: 'https://paradise-ui.com',
-    postLink: 'https://devaradise.com/how-i-build-paradise-ui-react-component-library/',
-    tags: ['React', 'UI Library']
+    name: 'Space Invader',
+    description: 'A project exploring visualization of waveform through Tone.js library',
+    demoLink: '',
+    demoLinkRel: 'nofollow noopener noreferrer',
+    tags: ['Software Development']
   },
   {
-    ...(await getRepositoryDetails('syakirurahman/react-lab')),
-    name: 'React Lab',
-    demoLink: 'https://devaradise.com/lab/react/',
-    tags: ['React']
+    name: 'Arcturus',
+    description: 'A series of ambient poems that explored nonlinear storytelling on the web.',
+    demoLink: 'https://arcturus0.netlify.app/',
+    demoLinkRel: 'nofollow noopener noreferrer',
+    tags: ['Web Design']
   },
   {
-    ...(await getRepositoryDetails('syakirurahman/pokemon-catcher')),
-    name: 'Pokemon Catcher',
-    demoLink: 'https://pokemon-catcher-18636.web.app/',
-    tags: ['Hobby']
+    name: 'Parsons Senior Thesis',
+    description: 'A series of ambient poems that explored nonlinear storytelling on the web.',
+    demoLink: 'https://arcturus0.netlify.app/',
+    demoLinkRel: 'nofollow noopener noreferrer',
+    tags: ['Web Design']
   },
   {
-    ...(await getRepositoryDetails('syakirurahman/movie-nominations')),
-    name: 'Movie Nominations',
-    demoLink: 'https://movie-nominations-c21c3.web.app/',
-    tags: ['Hobby']
+    name: 'Wavefrom Machine',
+    description: 'A project exploring visualization of waveform through Tone.js library',
+    demoLink: '',
+    demoLinkRel: 'nofollow noopener noreferrer',
+    tags: ['Web Design']
   },
-  {
-    ...(await getRepositoryDetails('syakirurahman/organization-tree')),
-    name: 'Organization tree',
-    demoLink: 'https://organization-tree-2a446.web.app/',
-    tags: ['Hobby']
-  }
+  
+
+  // {
+  //   ...(await getRepositoryDetails('devaradise/paradise-ui')),
+  //   name: 'Space Invader',
+  //   demoLink: '',
+  //   postLink: 'https://devaradise.com/how-i-build-paradise-ui-react-component-library/',
+  //   tags: ['React', 'UI Library']
+  // }
 ]

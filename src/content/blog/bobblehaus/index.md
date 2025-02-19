@@ -1,9 +1,9 @@
 ---
-title: 'Third post: How to become a succesful software developer'
+title: 'BobbleHaus'
 slug: 'third-post'
 description: 'Lorem ipsum dolor sit amet'
 tags: ["Dummy Tag"]
-pubDate: 'Jul 22 2022'
+pubDate: '2022'
 coverImage: './blog-placeholder-3.jpg'
 ---
 
