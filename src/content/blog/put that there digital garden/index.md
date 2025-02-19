@@ -1,5 +1,5 @@
 ---
-title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+title: 'Digital Garden'
 slug: 'lorem-ipsum'
 description: 'Lorem ipsum dolor sit amet'
 tags: ["Lorem ipsum", 'Devolio']
