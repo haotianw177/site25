@@ -6,7 +6,7 @@ import PostsByYear from '../../components/PostsByYear.astro';
 
 type BlogPost = CollectionEntry<'blog'>;
 const title = 'Chronology'
-const description = 'Chronology of places and projects I have work at.'
+const description = 'Work experiences chronology of places and projects I have worked on'
 
 const posts = (await getCollection('blog')).sort((a: BlogPost, b: BlogPost) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
@@ -18,7 +18,7 @@ const posts = (await getCollection('blog')).sort((a: BlogPost, b: BlogPost) => b
   <div class='container'>
     <div class="mb-10">
       <h1 class="text-3xl font-bold mb-2">{title}</h1>
-      <p class="text-zinc-700 dark:text-zinc-300 text-lg">{description}</p>
+      <p class="text-zinc-700 text-lg">{description}</p>
     </div>
     <PostsByYear posts={posts}/>
   </div>
