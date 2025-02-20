@@ -3,7 +3,7 @@ title: 'Mirastorm'
 slug: 'Mira'
 description: 'dd'
 tags: ["Software Engineer"]
-pubDate: 'Jan 2025'
+pubDate: '2025'
 coverImage: './blog-placeholder-2.jpg'
 ---
 

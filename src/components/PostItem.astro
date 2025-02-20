@@ -7,10 +7,10 @@ type BlogPost = CollectionEntry<'blog'>;
 const { post }: Record<string, any> | { post: BlogPost } = Astro.props
 ---
 <div class="transition-colors duration-300 hover:bg-blue-200 rounded">  <div class='flex flex-col sm:flex-row gap-2 sm:items-center  border-b py-1 mb-1 capitalize border-b-zinc-700'>        
-    <div class='text-zinc-700 text-[18px] w-24 shrink-0'>
+    <div class='text-zinc-700 text-[14  px] w-24 shrink-0'>
       <FormattedDate date={post.data.pubDate} />
     </div>
-    <h3 class="text-[18px] text-[#0000FF] font-medium grow">
+    <h3 class="text-[24px] text-[#0000FF] font-medium grow">
       <a href={`/${post.slug}/`}>
         {post.data.title}
       </a>
@@ -20,7 +20,7 @@ const { post }: Record<string, any> | { post: BlogPost } = Astro.props
         (post.data.tags || [] )?.map((tag: string) => (
           <a
             class='border border-zinc-300 rounded-2xl
-            text-[18px] text-zinc-700 no-underline px-2 py-0.5
+            text-[14px] text-zinc-700 no-underline px-2 py-0.5
             transition-all duration-700
             hover:border-zinc-700'
             href={`/tags/${slugify(tag)}`}>

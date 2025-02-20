@@ -2,8 +2,8 @@
 title: 'Unity Gardens'
 slug: 'lorem-ipsum'
 description: 'Lorem ipsum dolor sit amet'
-tags: ["Software Engineer"]
-pubDate: '2025-02'
+tags: ["Software Team Lead"]
+pubDate: '2025'
 coverImage: './blog-placeholder-3.jpg'
 ---
 
