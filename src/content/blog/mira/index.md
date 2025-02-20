@@ -1,5 +1,5 @@
 ---
-title: 'Second post - Devolio is awesome'
+title: 'Mirastorm'
 slug: 'second-post'
 description: 'Lorem ipsum dolor sit amet'
 tags: ["Devolio", "Dummy Tag"]
