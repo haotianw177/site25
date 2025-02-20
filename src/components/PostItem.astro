@@ -6,11 +6,11 @@ import type { CollectionEntry } from 'astro:content';
 type BlogPost = CollectionEntry<'blog'>;
 const { post }: Record<string, any> | { post: BlogPost } = Astro.props
 ---
-<div class='flex flex-col sm:flex-row gap-2 sm:items-center  border-b py-7 mb-1 capitalize dark:border-b-zinc-700'>        
-  <div class='text-zinc-700 text-sm w-24 dark:text-zinc-300 shrink-0'>
+<div class='flex flex-col sm:flex-row gap-2 sm:items-center  border-b py-1 mb-1 capitalize dark:border-b-zinc-700'>        
+  <div class='text-zinc-700 text-[18px] w-24 dark:text-zinc-300 shrink-0'>
     <FormattedDate date={post.data.pubDate} />
   </div>
-  <h3 class="text-[24px] font-medium grow">
+  <h3 class="text-[18px] font-medium grow">
     <a href={`/${post.slug}/`}>
       {post.data.title}
     </a>
@@ -20,7 +20,7 @@ const { post }: Record<string, any> | { post: BlogPost } = Astro.props
       (post.data.tags || [] )?.map((tag: string) => (
         <a
           class='border border-zinc-300 dark:border-zinc-700 rounded-2xl
-          text-sm text-zinc-700 dark:text-zinc-300 no-underline px-2 py-0.5
+          text-[18px] text-zinc-700 dark:text-zinc-300 no-underline px-2 py-0.5
           transition-all duration-700
           hover:border-zinc-700 dark:hover:border-zinc-300'
           href={`/tags/${slugify(tag)}`}>

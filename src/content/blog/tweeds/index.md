@@ -1,9 +1,9 @@
 ---
-title: 'Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas'
+title: 'Tweeds'
 slug: 'sagittis-purus'
 description: 'Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas'
-tags: ["Lorem ipsum"]
-pubDate: '2023-08-16'
+tags: ["Software Dev","Intern"]
+pubDate: '2024-11-16'
 coverImage: './blog-placeholder-3.jpg'
 ---
 
