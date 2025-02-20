@@ -1,8 +1,8 @@
 ---
-title: 'First post - Lorem ipsum dolor sit amet'
+title: 'My Designer'
 slug: 'first-post'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
+pubDate: '2024'
 tags: ["Lorem ipsum"]
 coverImage: './blog-placeholder-1.jpg'
 ---
