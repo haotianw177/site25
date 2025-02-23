@@ -12,7 +12,7 @@ const isActive = href === pathname || href === '/' + subpath?.[0];
 
 <a
 	href={href}
-	class:list={[className, 'bg-[#ffffff] text-[#000000] border-b border-[#f0f0f0]']}
+	class:list={[className, { 'border-b border-zinc-500: isActive }, { 'text-zinc-600 hover:text-zinc-900 }, { 'text-zinc-950}]}
 	{...props}
 >
 	<slot />
