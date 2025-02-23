@@ -1,6 +1,12 @@
-linkedin icon size, line up bottom, night mode linkedin icon
-br space between project and chrnology
-mdx file with javascripit injected :This theme comes with the [@astrojs/mdx](https://docs.astro.build/en/guides/integrations-guide/mdx/) integration installed and configured in your `astro.config.mjs` config file. If you prefer not to use MDX, you can disable support by removing the integration from your config file.
+1. linkedin icon size, line up bottom, night mode linkedin icon
+
+2. br space between project and chrnology
+
+3. add hacker: [Hackers in the Bazzar](https://www3.nd.edu/~pbui/teaching/cse.40842.fa24/) is a Computer Science and Engineering elective course at the University of Notre Dame that explores the idea of a "hacker" and the practice of participating in the open source "bazaar". 
+
+For this class, I developed a C++ Space Invader clone, a Go-based budget sharing app, contributed to open source projects. I also completed weekly readings and developed a [blog website](https://haotianw177.github.io/blogs/) for reflections focus on hacker history and open source culture.
+
+4. mdx file with javascripit injected :This theme comes with the [@astrojs/mdx](https://docs.astro.build/en/guides/integrations-guide/mdx/) integration installed and configured in your `astro.config.mjs` config file. If you prefer not to use MDX, you can disable support by removing the integration from your config file.
 
 ## Why MDX?
 
