@@ -16,6 +16,8 @@ import AvaLogo from '@src/assets/img/small-ava.jpg';
 import GithubWhite from '@src/assets/img/github-mark-white.svg';
 import GithubBlack from '@src/assets/img/github-mark.svg';
 import LinkedinIcon from '@src/assets/img/linkedin.svg';
+import ResumeIcon from '@src/assets/img/resume.svg';
+
 
 
 
@@ -47,12 +49,15 @@ const menu = [
 				</a>
 			</h2>
 			<div class='flex'>
-				<a class='p-3' href='https://www.linkedin.com/in/haotianwang0/' target='_blank'
-					><Image src={LinkedinIcon} width={23} height={23} quality={100} alt='Linkedin logo' /></a
-				>
-				<a class='p-3' href='https://github.com/haotianw177' target='_blank'
-					><Image src={GithubBlack} width={24} height={24} alt='Github logo' /></a
-				>
+				<a class='p-3' href='https://www.linkedin.com/in/haotianwang0/' target='_blank'>
+				<Image src={LinkedinIcon} width={23} height={23} quality={100} alt='Linkedin logo' />
+				</a>
+				<a class='p-3' href='/resume.pdf' target='_blank' rel="noopener noreferrer">
+   				 <Image src={ResumeIcon} width={24} height={24} alt='Resume' />
+  				</a>
+				<a class='p-3' href='https://github.com/haotianw177' target='_blank'>
+				<Image src={GithubBlack} width={24} height={24} alt='Github logo' />
+				</a>
 				<!--
 				<button class='p-3' id='themeToggle' aria-label='Theme mode'>
 					<svg
