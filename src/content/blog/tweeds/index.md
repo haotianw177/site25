@@ -7,4 +7,6 @@ pubDate: '2024'
 coverImage: './blog-placeholder-3.jpg'
 ---
 
-At Tweeds, I led front end team for design and software development.
+At Tweeds, I led a team of 5 for consulting on product and marketing research, MVP design and development and Front End software development.
+
+
