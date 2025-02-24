@@ -21,7 +21,7 @@ const posts = (await getCollection('blog')).sort((a: BlogPost, b: BlogPost) => b
 		<div class='w-full md:flex md:items-center gap-16 mb-10'>
       <div class="text-pretty leading-9">
         <Prose>
-          <div class="text-[24px]">
+          <div class="text-[24px] text-[#5E7260]">
             <p>Hi! I am a Full Stack Software Engineer with a passion for problem solving and have 3 years of experience building products. 
               Currently pursuing M.S. in Computer Science at the University of Notre Dame, and I hold a B.F.A. in Graphic Design from Parsons School of Design.
             </p>
@@ -32,9 +32,9 @@ const posts = (await getCollection('blog')).sort((a: BlogPost, b: BlogPost) => b
       <!-- <Image src={Ava} alt="Muhammad Sakirurohman" width={300} loading="eager" class="rounded-3xl rotate-3 mx-4 md:mx-0"/> -->
 		</div>
     <main>
-      <div class='mt-6 mb-12'>
+      <div class='mt-6 mb-12 text-[#5E7260]'>
           <div class="flex justify-between gap-2 border-b border-black mb-1">
-          <h2 class="text-[20px] font-bold mb-3">Chronology</h2>
+          <h2 class="text-[20px] font-[500]">Chronology</h2>
           <a href="/posts/" class="inline-block py-2 dark:prose-invert">All work experiences &raquo;</a>
         </div>
         <div>
@@ -47,7 +47,7 @@ const posts = (await getCollection('blog')).sort((a: BlogPost, b: BlogPost) => b
         <div class="text-right">
         </div>
       </div>
-      <div>
+      <div class="text-[#5E7260]">
         <div class="flex justify-between gap-2 mb-1">
           <h2 class="text-[20px] font-bold mb-3">My Projects</h2>
           <a href="/projects/" class="inline-block py-2 underline dark:prose-invert">All projects &raquo;</a>
