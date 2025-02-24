@@ -7,4 +7,4 @@ tags: ["Technology Consultant"]
 coverImage: './blog-placeholder-1.jpg'
 ---
 
-Through
+Through participating in McCloskey New Venture Competition, I joined MyDesigner to Consult on software development, product market research and development the MVP prototype.
