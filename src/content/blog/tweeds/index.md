@@ -7,6 +7,6 @@ pubDate: 'Nov 2024'
 coverImage: './blog-placeholder-3.jpg'
 ---
 
-At Tweeds, we are building AI publishing software using MERN stack. I led a team of 5 for consulting on product and marketing research, MVP design and development and Front End software development. I also consulted on design, product and market research
+At Tweeds, we are building AI publishing software using MERN stack. I led a team of 5 for consulting on product and marketing research, MVP design and development, and Front End software development.
 
 
