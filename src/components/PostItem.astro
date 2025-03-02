@@ -7,19 +7,21 @@ type BlogPost = CollectionEntry<'blog'>;
 const { post }: Record<string, any> | { post: BlogPost } = Astro.props
 ---
 <div class="transition-colors duration-300 hover:bg-blue-200 rounded">
-  <div class='flex flex-col sm:flex-row gap-2 sm:items-center border-b py-1 mb-1 capitalize border-b-zinc-700'>        
-    <div class='text-zinc-700 text-[14px] text-[#5E7260] w-24 shrink-0'>
-      <FormattedDate date={post.data.pubDate} />
-    </div>
+  <div class='flex flex-col sm:flex-row gap-2 sm:items-center border-b py-1 capitalize border-b-zinc-700'>        
+
     <div class="grow">
       <h3 class="text-[24px] text-[#0000FF] font-medium normal-case mt-2">
         <a href={`/${post.slug}/`}>
           {post.data.title}
         </a>
       </h3>
+
+    <div class='text-zinc-700 text-[14px] text-[#5E7260] w-24 shrink-0'>
+      <FormattedDate date={post.data.pubDate} />
+    </div>
       
       <!-- ✅ Added preview text inside the post item row -->
-      <p class="text-[14px] mb-5 line-clamp-2 normal-case">
+      <p class="text-[14px] mb-4 line-clamp-2 normal-case">
         {post.data.description || post.data.excerpt || 'No preview available...'}
       </p>
       
