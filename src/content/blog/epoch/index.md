@@ -1,8 +1,8 @@
 ---
 title: 'Epoch Research Lab'
 slug: 'td'
-description: 'Lorem ipsum dolor sit amet'
-tags: ["Graduate Research Assistant"]
+description: 'Graduate research assistant for responsible computing project at Notre Dame'
+tags: ["Research Assistant"]
 pubDate: 'Jan, 2025'
 coverImage: './blog-placeholder-3.jpg'
 ---

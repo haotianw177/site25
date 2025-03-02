@@ -1,7 +1,7 @@
 ---
 title: 'Tweeds'
 slug: 'sagittis-purus'
-description: 'Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas'
+description: 'Full stack development team lead for building AI publishing software'
 tags: ["Software Engineer"]
 pubDate: 'Nov 2024'
 coverImage: './blog-placeholder-3.jpg'

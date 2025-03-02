@@ -1,7 +1,7 @@
 ---
 title: 'MyDesigner'
 slug: 'first-post'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Technology consultant for B2C designer furniture recommendation software development'
 pubDate: 'Dec 2024'
 tags: ["Technology Consultant"]
 coverImage: './blog-placeholder-1.jpg'

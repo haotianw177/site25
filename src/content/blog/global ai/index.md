@@ -1,7 +1,7 @@
 ---
 title: 'Global AI'
 slug: 'd'
-description: 'Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas'
+description: 'Full stack development for raw material price monitoring and forecasting dashboard, and AI chatbot'
 tags: ["Software Engineer"]
 pubDate: 'Jun 2023'
 # coverImage: './blog-placeholder-3.jpg'

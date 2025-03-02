@@ -1,7 +1,7 @@
 ---
 title: 'Unity Gardens'
 slug: 'haha'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Team lead for developing database and inventory system tracking pipelines'
 tags: ["Software Team Lead"]
 pubDate: 'Feb-2025'
 coverImage: './unity.jpg'
