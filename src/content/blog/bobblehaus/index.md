@@ -2,7 +2,7 @@
 title: 'BobbleHaus'
 slug: 'third-post'
 description: 'Product design and strategy, brand identity for their clothing & lifestyle products'
-tags: ["Graphic Designer"]
+tags: ["2021-2022"]
 pubDate: '2021'
 coverImage: './blog-placeholder-3.jpg'
 ---

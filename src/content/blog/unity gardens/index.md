@@ -2,7 +2,7 @@
 title: 'Unity Gardens'
 slug: 'haha'
 description: 'Team lead for developing database and inventory system tracking pipelines'
-tags: ["Software Team Lead"]
+tags: ["2025"]
 pubDate: 'Feb-2025'
 coverImage: './unity.jpg'
 ---

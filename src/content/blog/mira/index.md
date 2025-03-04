@@ -2,7 +2,7 @@
 title: 'Mirastorm'
 slug: 'Mira'
 description: 'Full stack and iOS development for their software product of connecting customers to local photographers'
-tags: ["Software Engineer"]
+tags: ["2025"]
 pubDate: '2025'
 coverImage: './blog-placeholder-2.jpg'
 ---

@@ -3,7 +3,7 @@ title: 'MyDesigner'
 slug: 'first-post'
 description: 'Technology consultant for B2C designer furniture recommendation software development'
 pubDate: 'Dec 2024'
-tags: ["Technology Consultant"]
+tags: ["2024-2025"]
 coverImage: './blog-placeholder-1.jpg'
 ---
 
