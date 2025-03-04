@@ -1,39 +1,58 @@
-  ---
-  import { slugify } from '../utils';
-  import FormattedDate from './FormattedDate.astro';
-  import type { CollectionEntry } from 'astro:content';
+---
+import { slugify } from '../utils';
+import FormattedDate from './FormattedDate.astro';
+import type { CollectionEntry } from 'astro:content';
 
-  type BlogPost = CollectionEntry<'blog'>;
-  const { post }: Record<string, any> | { post: BlogPost } = Astro.props
-  ---
-  <div class="transition-colors duration-300 hover:bg-blue-200 rounded">
-    <div class="flex flex-col sm:flex-row border-b py-1 border-b-zinc-700">
-      <!-- First column (tags) -->
-      <div class="w-48 flex gap-2 shrink-0">
-        {post.data.tags?.map((tag: string) => (
-          <a
-            class="border-zinc-300 rounded-2xl mt-3
-                  text-[14px] text-zinc-700 no-underline px-2 py-0.5
-                  transition-all duration-700
-                  hover:border-zinc-700"
-            href={`/tags/${slugify(tag)}`}>
-            {tag}
-          </a>
-        ))}
-      </div>
+type BlogPost = CollectionEntry<'blog'>;
+const { post }: { post: BlogPost } = Astro.props;
+---
 
-      <!-- Second column (title, date, etc.) -->
-      <div class="grow">
-        <h3 class="text-[24px] text-[#0000FF] font-medium normal-case mt-2">
-          <a href={`/${post.slug}/`}>{post.data.title}</a>
-        </h3>
-        <!-- <div class="text-zinc-700 text-[14px] text-[#ffffff] w-24 shrink-0">
-          <FormattedDate date={post.data.pubDate} />
-        </div> -->
-        <p class="text-[14px] mb-4 line-clamp-2 normal-case">
-          {post.data.description || post.data.excerpt || 'No preview available...'}
-        </p>
-      </div>
+<div class="transition-colors duration-300 hover:bg-blue-200 rounded">
+  {/*
+    - On mobile (`grid-cols-1`), everything stacks: tags → title → description.
+    - On medium+ screens (`md:grid-cols-[150px_1fr_2fr]`), we get 3 columns:
+        1) Tags
+        2) Title
+        3) Description
+  */}
+  <div
+    class="
+      grid 
+      grid-cols-1 
+      gap-4
+      border-b py-2 border-b-zinc-700
+
+      md:grid-cols-[150px_1fr_2fr]
+      md:items-baseline
+    "
+  >
+    <!-- Left column: tags -->
+    <div class="flex flex-wrap gap-2">
+      {post.data.tags?.map((tag) => (
+        <a
+          class="inline-block text-[14px] text-zinc-700 no-underline
+                 hover:underline transition-all duration-300"
+          href={`/tags/${slugify(tag)}`}
+        >
+          {tag}
+        </a>
+      ))}
     </div>
 
+    <!-- Middle column: title -->
+    <div>
+      <h3 class="text-[24px] text-[#0000FF] font-medium normal-case">
+        <a href={`/${post.slug}/`}>
+          {post.data.title}
+        </a>
+      </h3>
+    </div>
+
+    <!-- Right column: description -->
+    <div>
+      <p class="text-[14px] mb-4 line-clamp-2 normal-case">
+        {post.data.description || post.data.excerpt || 'No preview available...'}
+      </p>
+    </div>
   </div>
+</div>
