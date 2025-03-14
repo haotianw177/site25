@@ -7,4 +7,4 @@ pubDate: 'Jan, 2025'
 coverImage: './blog-placeholder-3.jpg'
 ---
 
-At the Epoch Research Lab, I led the development of Mozilla Grants of [Responsible Computing](https://responsiblecomputing.nd.edu/) project for the University of Notre Dame.
+At the Epoch Research Lab, I led the Mozilla Grants development for [Responsible Computing](https://responsiblecomputing.nd.edu/) project for the University of Notre Dame.
