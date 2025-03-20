@@ -1,4 +1,4 @@
-1. linkedin icon size, line up bottom, night mode linkedin icon
+1. linkedin iscon size, line up bottom, night mode linkedin icon
 
 2. br space between project and chronologys
 
