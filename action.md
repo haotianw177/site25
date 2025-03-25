@@ -1,7 +1,7 @@
 1. linkedin iscon size, line up bottom, night mode linkedin icon
 
 2. br space between project and chronologys
-fuck shit
+fuck shit bitch
 
 3. add hacker: [Hackers in the Bazzar](https://www3.nd.edu/~pbui/teaching/cse.40842.fa24/) is a Computer Science and Engineering elective course at the University of Notre Dame that explores the idea of a "hacker" and the practice of participating in the open source "bazaar". 
 
